@@ -10,5 +10,11 @@ components:
   properties:
     margin: [101, null, null, null]
   type: DropDown
-container: {type: ColumnPanel}
+- layout_properties: {grid_position: 'IPMJFF,SVMCKM'}
+  name: plot_1
+  properties: {}
+  type: Plot
+container:
+  properties: {col_widths: '{"SVMCKM":60}'}
+  type: ColumnPanel
 is_package: true
