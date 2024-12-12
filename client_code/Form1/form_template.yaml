@@ -1,0 +1,9 @@
+components:
+- data_bindings:
+  - {code: 'self.item['''']', property: font, writeback: false}
+  layout_properties: {grid_position: 'APBAZO,PZEXRH', row_background: '#019af9'}
+  name: label_1
+  properties: {align: center, bold: true, font_size: 16, foreground: 'theme:Header Background', italic: false, text: Appstore VS Playstore Data Presentation}
+  type: Label
+container: {type: ColumnPanel}
+is_package: true
