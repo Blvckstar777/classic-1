@@ -1,9 +1,10 @@
 allow_embedding: false
+db_schema: {}
 name: Classic 1
 package_name: Classic_1
 runtime_options:
   client_version: '3'
-  server_spec: {base: python310-minimal}
+  server_spec: {base: python310-standard}
   server_version: python3-sandbox
   version: 2
 services:
@@ -12,3 +13,4 @@ services:
   source: /runtime/services/tables.yml
 startup: null
 startup_form: Form1
+uplink_visible: true
