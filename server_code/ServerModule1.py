@@ -8,11 +8,11 @@ import anvil.server
 #              'load_func': lambda URL: pd.read_html(URL)[0]}
 #
 #df1 = appstore_df['load_func'](appstore_df['url'])
-data = {
-  "calories": [420, 380, 390],
-  "duration": [50, 40, 45]
-}
-appstore_df = pd.DataFrame(data)
+#data = {
+#"calories": [420, 380, 390],
+#  "duration": [50, 40, 45]
+#}
+#appstore_df = pd.DataFrame(data)
 
 # This is a server module. It runs on the Anvil server,
 # rather than in the user's browser.
