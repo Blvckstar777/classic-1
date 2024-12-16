@@ -1,5 +1,5 @@
 import anvil.server
-import pandas as pd
+#import pandas as pd
 #url1 = "https://github.com/Blvckstar777/classic-1/blob/master/AppleStore.csv"
 #url1 = "https://www.kaggle.com/datasets/ysf12ff/app-store-dataset/data"
 #appstore_df = pd.read_html(url1)
