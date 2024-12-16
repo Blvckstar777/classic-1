@@ -5,14 +5,20 @@ components:
   name: label_1
   properties: {align: center, bold: true, font_size: 16, foreground: 'theme:Header Background', italic: false, text: Appstore VS Playstore Data Presentation}
   type: Label
+- event_bindings: {click: button_1_click}
+  layout_properties: {grid_position: 'GLIGEM,LDGOYV'}
+  name: button_1
+  properties: {text: button_1}
+  type: Button
 - layout_properties: {grid_position: 'WYFNZG,RIMKGW'}
   name: drop_down_1
   properties:
     margin: [101, null, null, null]
   type: DropDown
-- layout_properties: {grid_position: 'IPMJFF,SVMCKM'}
+- event_bindings: {click: plot_1_click}
+  layout_properties: {grid_position: 'IPMJFF,SVMCKM'}
   name: plot_1
-  properties: {}
+  properties: {visible: true}
   type: Plot
 container:
   properties: {col_widths: '{"SVMCKM":60}'}
