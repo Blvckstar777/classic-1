@@ -20,13 +20,13 @@ appstore_df = pd.DataFrame(data)
 # To allow anvil.server.call() to call functions here, we mark
 # them with @anvil.server.callable.
 # Here is an example - you can replace it with your own:
-#
-#def say_hello(name):
-#   print("Hello, " + name + "!")
-#   return 42
 @anvil.server.callable
-def explore():
-  print(appstore_df.header())
+def say_hello(name):
+   print("Hello, " + name + "!")
+   return 42
+#@anvil.server.callable
+#def explore():
+#  print(appstore_df.header())
   #type(df1)
    
 
