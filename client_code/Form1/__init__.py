@@ -15,6 +15,10 @@ class Form1(Form1Template):
     """This method is called when the button is clicked"""
     a = anvil.server.call('get_headers_from_pandas')
     print(a)
+
+  def file_loader_1_change(self, file, **event_args):
+    """This method is called when a new file is loaded into this FileLoader"""
+    
    
 
   
